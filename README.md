@@ -1,2 +1,3 @@
-# UNet-
-A Nested U-Net Architecture for Medical Image Segmentation
+# UNet++
+# A Nested U-Net Architecture for Medical Image Segmentation
+A framework for Brain MRI image segmentation. The Improved U-Net with deep supervision is used to solve the problems of the usual convolution network being prone to parameter explosion when the depth increases, and the gradient disappearing when the network model is trained for back-propagation. It also solves the problem of other models being unable to extract the deep image feature information to improve the accuracy and Dice Coefficient of segmentation of scan images. Experiments on the dataset compare the depth of the U-Net model with the existing research results, and the proposed method achieves the highest Mean Intersection over Union on the dataset.
